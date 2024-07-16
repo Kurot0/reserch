@@ -1,0 +1,51 @@
+# expriment setting
+seed: 
+batch_size: 
+num_epochs: 
+patience: 
+learning_rate: 
+
+# data setting
+img_size_in: 
+img_size_out: 
+patch_size:
+underground_channels: 
+in_chans: 
+out_chans: 
+
+# model setting
+embed_dim: 
+tokens_mlp_dim:
+channels_mlp_dim: 
+num_blocks: 
+f_hidden: 
+drop_rate: 
+
+fno_blocks:
+fno_softshrink: 
+
+depth: 
+num_heads: 
+mlp_ratio: 
+gpsa_interval: 
+use_pos_embed: 
+
+in_width: 
+width: 
+
+in_channels: 
+out_channels: 
+hidden_dim: 
+add_layers: 
+
+crop_size: 
+stride: 
+
+# path setting
+model_module: 
+model_class: 
+
+data_path: 
+underground_data_path: 
+mask_path: 
+checkpoint_path: 
